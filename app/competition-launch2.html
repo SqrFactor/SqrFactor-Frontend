@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Square Factor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../favicon.ico">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="../assets/css/app-bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Vendor CSS -->
+    <!-- CSS -->
+    <link href="../assets/css/bootstrap-select.css" rel="stylesheet">
+    <!-- Main css -->
+    <link href="../assets/css/app.css" rel="stylesheet">
+    <!-- custom scroll -->
+    <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+  </head>
+  <body class="app-page">
+    <!-- Header -->
+    <header class="header" id="site-header">
+      <div class="header-content-wrapper container">
+        <!-- logo -->
+        <a href="#" class="header-brand">
+          <img src="../assets/images/logo.jpg" alt="" />
+        </a>
+        <!-- nav -->
+        <ul class="header-nav">
+          <li class="active"><a href="#">Find Competition</a></li>
+          <li class="has-submenu">
+            <a href="#">Announcement</a>
+            <ul class="submenu">
+              <li class="active"><a href="#">Job/Internship</a></li>
+              <li><a href="#">Event</a></li>
+              <li><a href="#">Competition</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- search form -->
+        <form class="header-search-form">
+          <input type="text" class="header-search-form-input" placeholder="Find Friends |">
+          <button type="button" class="btn header-search-form-btn"><i class="fa fa-search"></i></button>
+        </form>
+        <!-- Notifications -->
+        <div class="control-block">
+          <div class="control-icon more has-items">
+            <i class="fa fa-envelope-o"></i>
+            <div class="label-avatar bg-primary">5</div>
+            <div class="more-dropdown more-with-triangle header-notification-dropdown">
+              <div class=" ui-block-title ui-block-title-small">
+                <h6 class="title">New Messages</h6>
+              </div>
+              <div class="mCustomScrollbar" data-mcs-theme="dark">
+                <ul class="notification-list">
+                  <li>
+                    <div class="media">
+                      <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                      <div class="media-body">
+                        <div class="notification-event">
+                          <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a></div>
+                          <p>Hi James! It’s Diana, I just wanted to let you know that we have to</p>
+                          <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                        </div>
+                        <div class="more">
+                          <svg class="olymp-little-delete">
+                            <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  -->
+                  <li>
+                    <div class="media">
+                      <img class="author-thumb" src="../assets/images/avatar-sm-2.jpg" alt="author">
+                      <div class="media-body">
+                        <div class="notification-event">
+                          <div><a href="#" class="h6 notification-friend">Angad Gill</a></div>
+                          <p>Great, I’ll see you tomorrow!</p>
+                          <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                        </div>
+                        <div class="more">
+                          <svg class="olymp-little-delete">
+                            <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  -->
+                  <li>
+                    <div class="media">
+                      <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                      <div class="media-body">
+                        <div class="notification-event">
+                          <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a></div>
+                          <p>Hi James! It’s Diana, I just wanted to let you know that we have to</p>
+                          <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                        </div>
+                        <div class="more">
+                          <svg class="olymp-little-delete">
+                            <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  -->
+                  <li>
+                    <div class="media">
+                      <img class="author-thumb" src="../assets/images/avatar-sm-2.jpg" alt="author">
+                      <div class="media-body">
+                        <div class="notification-event">
+                          <div><a href="#" class="h6 notification-friend">Angad Gill</a></div>
+                          <p>Great, I’ll see you tomorrow!</p>
+                          <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                        </div>
+                        <div class="more">
+                          <svg class="olymp-little-delete">
+                            <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  -->
+                  <li>
+                    <div class="media">
+                      <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                      <div class="media-body">
+                        <div class="notification-event">
+                          <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a></div>
+                          <p>Hi James! It’s Diana, I just wanted to let you know that we have to</p>
+                          <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                        </div>
+                        <div class="more">
+                          <svg class="olymp-little-delete">
+                            <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  -->
+                </ul>
+              </div>
+              <a href="#" class="view-all bg-primary">View All Messages</a>
+            </div>
+          </div>
+          <div class="control-icon more has-items">
+            <i class="fa fa-bell-o"></i>
+            <div class="label-avatar bg-primary">2</div>
+            <div class="more-dropdown more-with-triangle header-notification-dropdown">
+              <div class=" ui-block-title ui-block-title-small">
+                <h6 class="title">Notifications</h6>
+              </div>
+              <div class="mCustomScrollbar" data-mcs-theme="dark">
+                <ul class="notification-list">
+                  <li>
+                    <div class="media">
+                      <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                      <div class="media-body">
+                        <div class="notification-event">
+                          <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="#" class="notification-link">profile status</a></div>
+                          <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                        </div>
+                        <div class="more">
+                          <svg class="olymp-little-delete">
+                            <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  -->
+                  <li>
+                    <div class="media">
+                      <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                      <div class="media-body">
+                        <div class="notification-event">
+                          <div><a href="#" class="h6 notification-friend">Rahul Dwiwedi</a> follow you now.</div>
+                          <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                        </div>
+                        <div class="more">
+                          <svg class="olymp-little-delete">
+                            <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  -->
+                  <li>
+                    <div class="media">
+                      <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                      <div class="media-body">
+                        <div class="notification-event">
+                          <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="#" class="notification-link">profile status</a></div>
+                          <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                        </div>
+                        <div class="more">
+                          <svg class="olymp-little-delete">
+                            <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  -->
+                  <li>
+                    <div class="media">
+                      <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                      <div class="media-body">
+                        <div class="notification-event">
+                          <div><a href="#" class="h6 notification-friend">Rahul Dwiwedi</a> follow you now.</div>
+                          <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                        </div>
+                        <div class="more">
+                          <svg class="olymp-little-delete">
+                            <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!--  -->
+                  <li>
+                    <div class="media">
+                      <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                      <div class="media-body">
+                        <div class="notification-event">
+                          <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="#" class="notification-link">profile status</a></div>
+                          <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                        </div>
+                        <div class="more">
+                          <svg class="olymp-little-delete">
+                            <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="view-all bg-primary">View All Notifications</a>
+            </div>
+          </div>
+          <div class="author-page author vcard inline-items more">
+            <div class="author-thumb">
+              <img alt="author" src="../assets/images/user-photo.jpg" class="avatar">
+              <div class="more-dropdown more-with-triangle">
+                <div class="ui-block-title">
+                  <h6 class="title">Agnim Gupta</h6>
+                </div>
+                <ul class="account-settings">
+                  <li>
+                    <a href="#">
+                      <svg class="olymp-menu-icon">
+                        <use xlink:href="../assets/icons/icons.svg#olymp-menu-icon"></use>
+                      </svg>
+                      <span>Profile</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="olymp-chat---messages-icon">
+                        <use xlink:href="../assets/icons/icons.svg#olymp-chat---messages-icon"></use>
+                      </svg>
+                      <span>Messages</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="olymp-settings-icon">
+                        <use xlink:href="../assets/icons/icons.svg#olymp-settings-icon"></use>
+                      </svg>
+                      <span>Settings</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="olymp-logout-icon">
+                        <use xlink:href="../assets/icons/icons.svg#olymp-logout-icon"></use>
+                      </svg>
+                      <span>Log Out</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <header class="header header-responsive" id="site-header-responsive">
+      <div class="header-content-wrapper container">
+        <ul class="nav nav-tabs mobile-app-tabs" role="tablist">
+          <li class="nav-item pl-0">
+            <!-- logo -->
+            <a href="#" class="nav-link header-brand pl-0 mr-0">
+              <img src="../assets/images/logo.jpg" alt="" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab_messages" role="tab">
+              <div class="control-icon has-items">
+                <i class="fa fa-envelope-o"></i>
+                <div class="label-avatar bg-primary">5</div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab_notifications" role="tab">
+              <div class="control-icon has-items">
+                <i class="fa fa-bell-o"></i>
+                <div class="label-avatar bg-primary">2</div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab_search" role="tab">
+              <div class="control-icon mb-0">
+                <i class="fa fa-search olymp-magnifying-glass-icon text-center" style="height: auto;width: 100%;"></i>
+                <i class="fa fa-close olymp-close-icon text-center" style="height: auto;width: 100%;"></i>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#header-nav" role="tab">
+              <div class="control-icon mb-0">
+                <i class="fa fa-bars olymp-magnifying-glass-icon text-center" style="height: auto;width: 100%;"></i>
+                <i class="fa fa-close olymp-close-icon text-center" style="height: auto;width: 100%;"></i>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link author-page p-0 m-0" data-toggle="tab" href="#header-nav-user" role="tab">
+              <div class="author-thumb">
+                <img alt="author" src="../assets/images/user-photo.jpg" class="avatar">
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Tab panes -->
+      <div class="tab-content tab-content-responsive">
+        <!-- messages -->
+        <div class="tab-pane" id="tab_messages" role="tabpanel">
+          <div class=" ui-block-title ui-block-title-small">
+            <h6 class="title">New Messages</h6>
+          </div>
+          <ul class="notification-list">
+            <li>
+              <div class="media">
+                <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                <div class="media-body">
+                  <div class="notification-event">
+                    <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a></div>
+                    <p>Hi James! It’s Diana, I just wanted to let you know that we have to</p>
+                    <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                  </div>
+                  <div class="more">
+                    <svg class="olymp-little-delete">
+                      <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--  -->
+            <li>
+              <div class="media">
+                <img class="author-thumb" src="../assets/images/avatar-sm-2.jpg" alt="author">
+                <div class="media-body">
+                  <div class="notification-event">
+                    <div><a href="#" class="h6 notification-friend">Angad Gill</a></div>
+                    <p>Great, I’ll see you tomorrow!</p>
+                    <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                  </div>
+                  <div class="more">
+                    <svg class="olymp-little-delete">
+                      <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--  -->
+            <li>
+              <div class="media">
+                <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                <div class="media-body">
+                  <div class="notification-event">
+                    <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a></div>
+                    <p>Hi James! It’s Diana, I just wanted to let you know that we have to</p>
+                    <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                  </div>
+                  <div class="more">
+                    <svg class="olymp-little-delete">
+                      <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--  -->
+            <li>
+              <div class="media">
+                <img class="author-thumb" src="../assets/images/avatar-sm-2.jpg" alt="author">
+                <div class="media-body">
+                  <div class="notification-event">
+                    <div><a href="#" class="h6 notification-friend">Angad Gill</a></div>
+                    <p>Great, I’ll see you tomorrow!</p>
+                    <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                  </div>
+                  <div class="more">
+                    <svg class="olymp-little-delete">
+                      <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--  -->
+            <li>
+              <div class="media">
+                <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                <div class="media-body">
+                  <div class="notification-event">
+                    <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a></div>
+                    <p>Hi James! It’s Diana, I just wanted to let you know that we have to</p>
+                    <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                  </div>
+                  <div class="more">
+                    <svg class="olymp-little-delete">
+                      <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--  -->
+          </ul>
+          <a href="#" class="view-all bg-primary">View All Messages</a>
+        </div>
+        <!-- notifications -->
+        <div class="tab-pane" id="tab_notifications" role="tabpanel">
+          <div class=" ui-block-title ui-block-title-small">
+            <h6 class="title">Notifications</h6>
+          </div>
+          <ul class="notification-list">
+            <li>
+              <div class="media">
+                <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                <div class="media-body">
+                  <div class="notification-event">
+                    <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="#" class="notification-link">profile status</a></div>
+                    <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                  </div>
+                  <div class="more">
+                    <svg class="olymp-little-delete">
+                      <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--  -->
+            <li>
+              <div class="media">
+                <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                <div class="media-body">
+                  <div class="notification-event">
+                    <div><a href="#" class="h6 notification-friend">Rahul Dwiwedi</a> follow you now.</div>
+                    <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                  </div>
+                  <div class="more">
+                    <svg class="olymp-little-delete">
+                      <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--  -->
+            <li>
+              <div class="media">
+                <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                <div class="media-body">
+                  <div class="notification-event">
+                    <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="#" class="notification-link">profile status</a></div>
+                    <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                  </div>
+                  <div class="more">
+                    <svg class="olymp-little-delete">
+                      <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--  -->
+            <li>
+              <div class="media">
+                <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                <div class="media-body">
+                  <div class="notification-event">
+                    <div><a href="#" class="h6 notification-friend">Rahul Dwiwedi</a> follow you now.</div>
+                    <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                  </div>
+                  <div class="more">
+                    <svg class="olymp-little-delete">
+                      <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--  -->
+            <li>
+              <div class="media">
+                <img class="author-thumb" src="../assets/images/avatar-sm-1.jpg" alt="author">
+                <div class="media-body">
+                  <div class="notification-event">
+                    <div><a href="#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="#" class="notification-link">profile status</a></div>
+                    <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+                  </div>
+                  <div class="more">
+                    <svg class="olymp-little-delete">
+                      <use xlink:href="../assets/icons/icons.svg#olymp-little-delete"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a href="#" class="view-all bg-primary">View All Notifications</a>
+        </div>
+        <!-- search -->
+        <div class="tab-pane" id="tab_search" role="tabpanel">
+          <form class="header-search-form">
+            <input type="text" class="header-search-form-input" placeholder="Find Friends |">
+            <button type="button" class="btn header-search-form-btn"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <!-- nav -->
+        <div class="tab-pane fade" id="header-nav" role="tabpanel">
+          <ul class="header-nav-responsive">
+            <li class="active">
+              <a href="#">Find Competition</a>
+            </li>
+            <li class="has-submenu">
+              <a href="#">Announcement</a>
+              <ul class="submenu">
+                <li class="active"><a href="#">Job/Internship</a></li>
+                <li><a href="#">Event</a></li>
+                <li><a href="#">Competition</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- user nav -->
+        <div class="tab-pane fade" id="header-nav-user" role="tabpanel">
+          <div class="ui-block-title">
+            <h6 class="title">Agnim Gupta</h6>
+          </div>
+          <ul class="account-settings">
+            <li>
+              <a href="#">
+                <svg class="olymp-menu-icon">
+                  <use xlink:href="../assets/icons/icons.svg#olymp-menu-icon"></use>
+                </svg>
+                <span>Profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg class="olymp-chat---messages-icon">
+                  <use xlink:href="../assets/icons/icons.svg#olymp-chat---messages-icon"></use>
+                </svg>
+                <span>Messages</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg class="olymp-settings-icon">
+                  <use xlink:href="../assets/icons/icons.svg#olymp-settings-icon"></use>
+                </svg>
+                <span>Settings</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg class="olymp-logout-icon">
+                  <use xlink:href="../assets/icons/icons.svg#olymp-logout-icon"></use>
+                </svg>
+                <span>Log Out</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- .tab-content -->
+      <!-- end tab panes -->
+    </header>
+    <div class="header-spacer"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10">
+          <div class="competition-launch">
+            <h3 class="h3 mb-5">Launch a competition</h3>
+            <form>
+              <div class="row form-group ">
+                <label class="col-lg-3 col-form-label h6">Terms & Condition</label>
+                <div class="col-lg-7">
+                  <div class="form-group label-floating mb-0">
+                    <label class="control-label">Write Terms and condition for your competition</label>
+                    <textarea class="form-control"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row form-group ">
+                <label class="col-lg-3 col-form-label h6">Jury</label>
+                <div class="col-lg-7">
+                  <div class="form-group label-floating mb-0">
+                    <label class="control-label">Jury Name</label>
+                    <input class="form-control" placeholder="" type="text">
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <a href="#" class="link-inverse form-text mt-3"><u>Add more +</u></a>
+                </div>
+              </div>
+              <div class="row form-group mb-4">
+                <label class="col-lg-3 col-form-label h6">Association With</label>
+                <div class="col-lg-7">
+                  <div class="form-group is-select">
+                    <select class="selectpicker form-control">
+                      <option value="" selected>Associate name</option>
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                    </select>
+                  </div>
+                  <div class="form-group mb-0">
+                    <input type="text" readonly class="form-control" placeholder="Associate Logo" style="background-color: transparent;">
+                    <span class="input-group-addon"><i class="fa fa-paperclip" style="font-size: 18px;"></i></span>
+                  </div>
+                  <a href="#" class="link-inverse form-text mt-3"><u>Add more +</u></a>
+                </div>
+              </div>
+              <div class="row form-group">
+                <label class="col-lg-3 col-form-label h6">Early Registration</label>
+                <div class="col-lg-7">
+                  <input type="text" class="form-control" placeholder="Early Registration" value="From 25th May to 5th June.  INR 1200 per team 2017">
+                </div>
+              </div>
+              <div class="row form-group">
+                <label class="col-lg-3 col-form-label h6">Standard Registration</label>
+                <div class="col-lg-7">
+                  <input type="text" class="form-control" placeholder="Standard Registration" value="From 10th June to 25th June 2017.  INR 1800 per team">
+                </div>
+              </div>
+              <div class="row form-group ">
+                <label class="col-lg-3 col-form-label h6">Note</label>
+                <div class="col-lg-7">
+                  <div class="form-group label-floating mb-0">
+                    <label class="control-label">Write your detailed note here</label>
+                    <textarea class="form-control"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row pt-2">
+                <div class="col-lg-12 offset-lg-3">
+                  <button type="submit" class="btn btn-primary btn-submit">Post Job</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jquery -->
+    <script src="../vendor/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap script -->
+    <script src="../vendor/tether/dist/js/tether.min.js"></script>
+    <script src="../vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Js effects for material design. + Tooltips -->
+    <script src="../assets/js/material.min.js"></script>
+    <!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
+    <script src="../assets/js/theme-plugins.js"></script>
+    <!-- Init functions -->
+    <script src="../assets/js/main.js"></script>
+    <!-- vendor script -->
+    <!-- script -->
+    <!-- app script -->
+    <script src="../assets/js/app.js"></script>
+  </body>
+</html>
